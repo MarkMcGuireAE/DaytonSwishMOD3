@@ -109,6 +109,8 @@ const Registration = () => {
         setEContactCell("")
         setEContactRel("")
         setRelease(false)
+
+        getData()
   
       } catch(err) {
         console.log(err)
