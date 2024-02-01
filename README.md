@@ -1,5 +1,5 @@
 # Dayton Swish Website
-This website was developed as my third adn final major coding project during week 15 of the 15 week Per Scholas Software Engineering program. This is a website for a local youth basketball program that my son is a part of. This is a project that will have real world application and will be used daily.
+This website was developed as my third adn final major coding project during week 15 of the 15 week Per Scholas Software Engineering program. This is a website for a local youth basketball program that my son is a part of. This is a project that will have real world application and will be used daily. This is a full stack MERN app, giving you the ability to register a user, login, logout, and capture form data for later use.
 
 ### Dayton Swish Website Link
 
