@@ -41,7 +41,7 @@ const Registration = () => {
      }, [] )
 
      async function addToList(e) {
-        e.preventDefault()
+       
       
       try {
   
@@ -110,8 +110,7 @@ const Registration = () => {
         setEContactRel("")
         setRelease(false)
 
-        getData()
-  
+       
       } catch(err) {
         console.log(err)
       }
