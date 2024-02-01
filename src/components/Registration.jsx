@@ -5,6 +5,7 @@ import Footer from './Footer'
 import RegForm from './regForm'
 
 import axios from "axios"
+import { baseURL } from '../App'
 
 
 
@@ -29,7 +30,7 @@ const Registration = () => {
       const getData = async () => {
 
       try {
-        const response = await axios.get("http://localhost:5000/api/regs")
+        const response = await axios.get(baseURL + "/api/regs")
         console.log(response)
         setRegs(response.data)
 
@@ -42,7 +43,7 @@ const Registration = () => {
      }, [] )
 
      async function addToList(e) {
-        
+        e.preventDefault()
       
       try {
   
@@ -91,9 +92,11 @@ const Registration = () => {
         // const newTodo = await response.json()
   
         // OPTION 2: use axios
+
+        console.log(reg)
   
-        const response = await axios.post("http://localhost:5000/api/regs", reg)
-  
+        const response = await axios.post(baseURL + "/api/regs", reg)
+          console.log(response)
         setRegs([...reg, response.data]);
 
         setFirstName("")

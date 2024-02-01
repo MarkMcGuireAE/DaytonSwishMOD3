@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 import RegForm from '../components/regForm'
 import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
+import { baseURL } from '../App';
 
 const Edit = () => {
     const navigate = useNavigate();
@@ -36,11 +37,11 @@ let [firstName, setFirstName] = useState ("");
      const getData = async () => {
        try {
          // OPTION 1: use fetch for "index" route
-         // const response = await fetch('https://localhost:5000/api/regs/:id')
+         // const response = await fetch('/api/regs/:id')
          // const data = await response.json()
  
          // OPTION 2: use axios
-         const response = await axios.get('http://localhost:5000/api/regs/' + id)
+         const response = await axios.get(baseURL + '/api/regs/' + id)
          console.log(response)
          setPerson(response.data)
          setFirstName(response.data.firstName)
@@ -96,7 +97,7 @@ async function updatePerson(e) {
     // OPTION 2: use axios
 
     console.log("updating",reg.interest)
-    await axios.put(`http://localhost:5000/api/regs/${id}`, reg )
+    await axios.put(baseURL + `/api/regs/${id}`, reg )
     navigate(`/pages/Registration/${id}`)
  
 

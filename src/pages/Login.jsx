@@ -2,6 +2,7 @@ import axios from 'axios'
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { baseURL } from '../App';
 
 let emptyForm = { 
     username: '',
@@ -22,7 +23,7 @@ function Login({ setUser }) {
         e.preventDefault()
         try {
 
-            const response = await axios.post('http://localhost:5000/auth/login', form)
+            const response = await axios.post(baseURL + '/auth/login', form)
             const token = response.data.token
 
             console.log(token)
@@ -34,7 +35,7 @@ function Login({ setUser }) {
 
             localStorage.setItem("token", token)
 
-            const userResponse = await axios.get('http://localhost:5000/api/users', { 
+            const userResponse = await axios.get(baseURL + '/api/users', { 
                 headers: {
                     Authorization: token
                 }

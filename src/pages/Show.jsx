@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import { baseURL } from '../App'
 
 const Show = () => {
    const params = useParams()
@@ -21,7 +22,7 @@ const Show = () => {
         // const data = await response.json()
 
         // OPTION 2: use axios
-        const response = await axios.get('http://localhost:5000/api/regs/' + id)
+        const response = await axios.get(baseURL + '/api/regs/' + id)
         console.log(response)
         setPerson(response.data)
       } catch(err) {
@@ -45,7 +46,7 @@ const Show = () => {
 
        // OPTION 2: use axios
 
-       await axios.delete(`http://localhost:5000/api/regs/${id}`)
+       await axios.delete(baseURL + `/api/regs/${id}`)
        res.redirect("/pages/Registration")
 
 

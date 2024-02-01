@@ -14,6 +14,9 @@ import axios from "axios"
 import { useState } from "react"
 import { useEffect } from "react"
 
+
+export const baseURL = import.meta.env.VITE_URL
+
 function App() {
 
 
@@ -22,7 +25,7 @@ function App() {
 
   async function getUser(token) {
       try {
-          const response = await axios.get('http://localhost:5000/api/users', {
+          const response = await axios.get(baseURL +'/api/users', {
               headers: {
                   Authorization: token
               }
