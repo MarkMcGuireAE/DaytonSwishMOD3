@@ -14,7 +14,7 @@ const Homepage = () => {
    
     <div className='grid grid-cols-3'>
       <div className='col-start-3 divide-y'>
-    <h1 className='font-bebas text-blue-950 text-3xl mx-auto bg-blue-300 w-1/2 text-center rounded my-1 border-2 border-blue-950'>Upcoming Events</h1>
+    <h1 className='font-bebas text-blue-950 text-3xl mx-auto bg-blue-300 w-1/2 text-center rounded my-2 border-2 border-blue-950'>Upcoming Events</h1>
     <img src="https://i.imgur.com/nhVPJqv.jpeg" className='rounded mx-auto h-auto w-1/2' />
     <br></br>
     <img src="https://i.imgur.com/WntJUyu.jpeg" className='rounded mx-auto h-auto w-1/2' />

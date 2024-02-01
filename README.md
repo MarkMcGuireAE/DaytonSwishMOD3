@@ -19,6 +19,7 @@ This website was developed as my third adn final major coding project during wee
 1. Profile/Connection to specific user player
 1. Profile/Conditional rendering for "No registered players"
 1. Alumni Page - need info from coach
+1. Cart/Ecommerce features
 
 ### Trello Board
 
