@@ -8,7 +8,7 @@ const ContactUs = () => {
       <div className='bg-white w-4/5 mx-auto h-max'> 
         
         
-        <img src="/src/img/logo.JPG" className='h-auto max-w-[200px] mx-auto'/>
+        <img src="https://i.imgur.com/bBEZbJd.jpeg" className='h-auto max-w-[200px] mx-auto'/>
         <br></br>
         <h1 className='font-bebas text-blue-300 text-6xl text-center'>Contact Dayton Swish</h1>
         <br></br>

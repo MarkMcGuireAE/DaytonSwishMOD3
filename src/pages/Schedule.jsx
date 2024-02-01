@@ -11,7 +11,7 @@ const Schedule = () => {
     <div className='bg-white w-4/5 mx-auto'> 
         
         
-        <img src="/src/img/logo.JPG" className='h-auto max-w-[200px] mx-auto'/>
+        <img src="https://i.imgur.com/bBEZbJd.jpeg" className='h-auto max-w-[200px] mx-auto'/>
         <br></br>
         <h1 className='font-bebas text-blue-950 text-3xl text-center'>2023/2024 Winter Basketball Season</h1>
         <h1 className='text-center'>(All home games are played at: 3701 Salem Ave)</h1>

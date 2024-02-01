@@ -16,7 +16,7 @@ console.log(username)
       
         <div className="flex items-center font-bebas text-white text-3xl">
  <Link  to="/">
- <img src="/src/img/logo.png" className='h-auto max-w-[125px]'/>
+ <img src="https://i.imgur.com/JSyjGkx.png" className='h-auto max-w-[125px]'/>
         </Link>
        <Link  className="nav-item"  to="/">
             <h1 className="mx-5">Home</h1>
