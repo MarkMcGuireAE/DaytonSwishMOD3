@@ -40,6 +40,8 @@ const Homepage = () => {
     <br></br>
     </div>
     <div>
+      <br></br>
+      <br></br>
     <img src="https://i.imgur.com/cx5MCrq.jpeg" className='rounded mx-auto h-auto w-3/5 border-4 border-blue-300' />
     <br></br>
       <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, numquam perspiciatis unde reprehenderit eveniet similique reiciendis! Et at dolor praesentium, aut rerum atque cum corrupti nostrum ea, officiis explicabo sint?
