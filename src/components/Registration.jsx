@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import Nav from './Nav'
-import Footer from './Footer'
-import RegForm from './regForm'
+
 
 import axios from "axios"
 import { baseURL } from '../App'
