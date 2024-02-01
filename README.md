@@ -3,7 +3,7 @@ This website was developed as my third adn final major coding project during wee
 
 ### Dayton Swish Website Link
 
-[Dayton Swish Website] (https://swish-client.onrender.com/profile)
+[Dayton Swish Website] (https://swish-client.onrender.com/)
 
 ### Usage
 
