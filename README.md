@@ -7,10 +7,18 @@ This website was developed as my third adn final major coding project during wee
 
 ### Usage
 
-Node.js
-MongoDB
-React.js
-Tailwind.css
+- Node.js
+- MongoDB
+- React.js
+- Tailwind.css
+
+### Things still being worked on
+
+1. Homepage - Carousel
+1. Contact Us - email info to coach
+1. Profile/Connection to specific user player
+1. Profile/Conditional rendering for "No registered players"
+1. Alumni Page - need info from coach
 
 ### Trello Board
 
