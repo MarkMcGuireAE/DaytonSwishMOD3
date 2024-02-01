@@ -1,6 +1,4 @@
-import { Link
- } from "react-router-dom";
- import Nav from "../components/Nav";
+
 import Registration from "../components/Registration";
 function Profile({ username, email }) {
     return ( 

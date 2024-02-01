@@ -3,10 +3,6 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
-import RegForm from '../components/regForm'
-import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { baseURL } from '../App';
 
