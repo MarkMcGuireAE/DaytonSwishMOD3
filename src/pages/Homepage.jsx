@@ -13,15 +13,15 @@ const Homepage = () => {
     <br></br>
    
     <div className='grid grid-cols-3'>
-      <div className='col-start-3 divide-y'>
-    <h1 className='font-bebas text-blue-950 text-3xl mx-auto bg-blue-300 w-1/2 text-center rounded my-2 border-2 border-blue-950'>Upcoming Events</h1>
-    <img src="https://i.imgur.com/nhVPJqv.jpeg" className='rounded mx-auto h-auto w-1/2' />
+      <div className='col-start-3 divide-y border-l-2'>
+    <h1 className='font-bebas text-blue-950 text-3xl mx-auto bg-blue-300 w-3/4 text-center rounded my-2 border-2  border-blue-950'>Upcoming Events</h1>
+    <img src="https://i.imgur.com/nhVPJqv.jpeg" className='rounded mx-auto h-auto w-3/4' />
     <br></br>
-    <img src="https://i.imgur.com/WntJUyu.jpeg" className='rounded mx-auto h-auto w-1/2' />
+    <img src="https://i.imgur.com/WntJUyu.jpeg" className='rounded mx-auto h-auto w-3/4' />
     <br></br>
-    <img src="https://i.imgur.com/V6SjYqZ.jpeg" className='rounded mx-auto h-auto w-1/2' />
+    <img src="https://i.imgur.com/V6SjYqZ.jpeg" className='rounded mx-auto h-auto w-3/4' />
     <br></br>
-    <img src="https://i.imgur.com/MdS11eK.jpeg" className='rounded mx-auto h-auto w-1/2' />
+    <img src="https://i.imgur.com/MdS11eK.jpeg" className='rounded mx-auto h-auto w-3/4' />
     {/* <div className='flex justify-end'>
     <div className='flex border-2 border-blue-950 justify-center rounded w-1/5 h-96 bg-white'>
       <div  className='border-blue-950 w-full h-10 bg-blue-300'>
