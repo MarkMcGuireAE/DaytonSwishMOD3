@@ -14,7 +14,7 @@ const ContactUs = () => {
         <br></br>
         <br></br>
 
-        <form className='font-bebas text-blue-950 text-2xl text-left mx-40'>
+        <form method='POST' action="https://getform.io/f/5eVYPOdE" className='font-bebas text-blue-950 text-2xl text-center mx-40'>
           <label>Name: </label>
           <input className='w-1/2 rounded font-bebas bg-gray-200 border-2 border-blue-950 text-blue-950 focus:bg-blue-300 text-3xl mx-5' type="text" name="user_name" />
           <br></br>
@@ -30,7 +30,7 @@ const ContactUs = () => {
           <textarea className='w-4/5 h-96 rounded font-bebas bg-gray-200 border-2 border-blue-950 text-blue-950 focus:bg-blue-300 text-2xl mx-20' name="message" />
           <br></br>
           <br></br>
-          <button className="rounded bg-blue-950 text-blue-300 px-7 py-1 mx-20">Send Email </button>
+          <button className="rounded bg-blue-950 text-blue-300 px-7 py-1 mx-20">Sumbit Inquiry </button>
           
         </form>
         <br></br>
